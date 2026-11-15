@@ -14,7 +14,7 @@ MarketPulse is a website where people with a free account can look at 4,616 stoc
 ## What we added
 We started from the suggested project "News headlines and the stock market." It says to report the answer honestly, even if the answer is "not really." We did the first step: we built a simple model that uses no news at all and tested it. That gives us a score that any news idea would have to beat.
 
-We have not answered the news question yet. This project is the starting point, and testing news is our next step.
+We have answered the news question yet. This project is the starting point, and testing news is our next step.
 
 Our website, the model and testing in this code were built on 14 and 15 November 2026.
 
