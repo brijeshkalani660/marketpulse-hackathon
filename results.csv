@@ -1,0 +1,14 @@
+,value
+Test periods where price rose 12 months later,50.3%
+Baseline 1: always predict up,50.3%
+Baseline 2: same direction as last 12 months,50.2%
+Our model (drift estimate) direction,55.0%
+Machine-learning model (gradient boosting) direction,51.7%
+Gradient boosting AUC (0.5 = coin flip),0.533
+Brier score: always-up / gradient boosting (lower is better),0.250 / 0.259
+Our 80% range: real result inside it (target 80%),78.9%
+Our 80% range: average width,116% of price
+Naive fixed range (same for every stock): inside,80.3% (width 108%)
+Middle estimate error (mean absolute): ours / 'no change',35.3% / 35.2%
+Range coverage by year,"2021: 75%, 2022: 81%, 2023: 82%, 2024: 78%, 2025: 78%"
+"Range coverage, most volatile 20% of stocks",72.6%
