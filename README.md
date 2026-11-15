@@ -3,13 +3,12 @@
 **Track:** Finance
 **Team:** Brijesh Kalani, Krishay Ranawat, Nandan Ranganathan
 
-*This is a school prototype. It is not financial advice and it does not tell anyone to buy or sell.*
 
 ## The problem
 Our question is: can news help predict the stock market? A lot of beginners read one headline and think they know where a stock will go. Lots of websites also show a single "prediction" number, which makes a guess look like a fact. We think that is risky for people who are just starting to invest. Before we can say if news helps, we first need to know how well a stock can be predicted without news, and how wrong the guess can be.
 
 ## What we built
-MarketPulse is a website where people with a free account can look at 4,616 stocks. On each stock page you can see the real price history, with little markers where news happened. You also see a predicted estimate for 3, 6 and 12 months. We show it as a middle guess with a likely range instead of one number, plus a High, Medium or Low badge that tells you how much history the estimate is based on. Some big companies also have recent news and a short box about what we think the news means. That box is just our opinion and we have not proven it works. There is also a "Today in 60 seconds" news summary, a portfolio, a watchlist and some beginner lessons. The prices and estimates update every day.
+MarketPulse is a website where people with a free account can look at 4,616 stocks. On each stock page you can see the real price history, with little markers where news happened. You also see a predicted estimate for 3, 6 and 12 months. We show it as one number, plus a High, Medium or Low badge that tells you how much history the estimate is based on. Some big companies also have recent news and a short box about what we think the news means. That box is gathered from several different news articles and we have not fully proven that it works. There is also a "Today in 60 seconds" news summary, a portfolio, a watchlist and some beginner lessons. The prices and estimates update every day, following world news.
 
 ## What we added
 We started from the suggested project "News headlines and the stock market." It says to report the answer honestly, even if the answer is "not really." We did the first step: we built a simple model that uses no news at all and tested it. That gives us a score that any news idea would have to beat.
@@ -40,4 +39,4 @@ So a simple model with no news is only a little better than a coin flip, and any
 2. Make the range better for jumpy stocks and test it on stocks that were removed from the market.
 
 ## Sources
-Price data from Google Finance. Code libraries: pandas, NumPy, scikit-learn. We used Claude (claude.ai) to help write the code and the website, and we ran the code and checked the results ourselves. Idea from the Veritas AI Hackathon 2026 Project Briefs, section 4.2.4.
+Price data from Google Finance. Code libraries: pandas, NumPy, scikit-learn. We used Claude (claude.ai) to help write the code and help design the website, and we ran the code and checked the results ourselves. Idea from the Veritas AI Hackathon 2026 Project Briefs, section 4.2.4.
