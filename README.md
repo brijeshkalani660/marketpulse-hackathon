@@ -16,7 +16,7 @@ We started from the suggested project "News headlines and the stock market." It 
 
 We have not answered the news question yet. This project is the starting point, and testing news is our next step.
 
-Our website was started before the hackathon. The model and test in this code were built on 14 and 15 November 2026.
+Our website, the model and testing in this code were built on 14 and 15 November 2026.
 
 ## How it works
 For data we used 103,441 monthly closing prices from 400 US stocks. We picked them at random from stocks with at least 9 years of history, and we removed missing months and stocks with too little history. One problem is that we only used stocks that still exist today, which makes the results look a bit better than real life.
